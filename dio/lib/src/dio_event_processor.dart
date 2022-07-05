@@ -13,7 +13,12 @@ class DioEventProcessor implements EventProcessor {
   static final _dioErrorType = (DioError).toString();
 
   /// This is an [EventProcessor], which improves crash reports of [DioError]s.
-  DioEventProcessor(this._options, this._maxRequestBodySize);
+  DioEventProcessor({
+    MaxRequestBodySize maxRequestBodySize = MaxRequestBodySize.never,
+    Hub? hub,
+    // ignore: invalid_use_of_internal_member
+  })  : _options = (hub ?? HubAdapter()).options,
+        _maxRequestBodySize = maxRequestBodySize;
 
   final SentryOptions _options;
   final MaxRequestBodySize _maxRequestBodySize;

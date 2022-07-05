@@ -150,8 +150,8 @@ class Fixture {
 
   DioEventProcessor getSut({bool sendDefaultPii = false}) {
     return DioEventProcessor(
-      options..sendDefaultPii = sendDefaultPii,
-      MaxRequestBodySize.always,
+      hub: Hub(options..sendDefaultPii = sendDefaultPii),
+      maxRequestBodySize: MaxRequestBodySize.always,
     );
   }
 }
