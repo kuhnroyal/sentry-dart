@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased
+
+### Features
+
+- Bump Android SDK from v6.1.4 to v6.12.1 ([#43](https://github.com/kuhnroyal/sentry-dart/pull/43))
+  - [changelog](https://github.com/getsentry/sentry-java/blob/main/CHANGELOG.md#6121)
+  - [diff](https://github.com/getsentry/sentry-java/compare/6.1.4...6.12.1)
+
 ## 6.6.2
 
 ### Features
