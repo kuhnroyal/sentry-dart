@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased
+
+### Features
+
+- Bump Cocoa SDK from v7.19.0 to v8.3.1 ([#51](https://github.com/kuhnroyal/sentry-dart/pull/51))
+  - [changelog](https://github.com/getsentry/sentry-cocoa/blob/main/CHANGELOG.md#831)
+  - [diff](https://github.com/getsentry/sentry-cocoa/compare/7.19.0...8.3.1)
+
 ## 6.6.2
 
 ### Features
