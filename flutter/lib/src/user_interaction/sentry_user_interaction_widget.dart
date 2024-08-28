@@ -471,6 +471,11 @@ class _SentryUserInteractionWidgetState
       if (renderObject == null) {
         return;
       }
+
+      if (renderObject.debugNeedsLayout || renderObject.debugNeedsPaint) {
+        return;
+      }
+
       var hitFound = true;
       if (renderObject is RenderPointerListener) {
         final hitResult = BoxHitTestResult();
