@@ -8,9 +8,9 @@
 
 ### Dependencies
 
-- Bump Cocoa SDK from v8.3.1 to v8.3.3 ([#1350](https://github.com/getsentry/sentry-dart/pull/1350), [#1355](https://github.com/getsentry/sentry-dart/pull/1355))
-  - [changelog](https://github.com/getsentry/sentry-cocoa/blob/main/CHANGELOG.md#833)
-  - [diff](https://github.com/getsentry/sentry-cocoa/compare/8.3.1...8.3.3)
+- Bump Cocoa SDK from v8.3.1 to v8.56.1 ([#1350](https://github.com/getsentry/sentry-dart/pull/1350), [#1355](https://github.com/getsentry/sentry-dart/pull/1355), [#287](https://github.com/kuhnroyal/sentry-dart/pull/287))
+  - [changelog](https://github.com/getsentry/sentry-cocoa/blob/main/CHANGELOG.md#8561)
+  - [diff](https://github.com/getsentry/sentry-cocoa/compare/8.3.1...8.56.1)
 
 ### Fixes
 
